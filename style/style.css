@@ -1,9 +1,9 @@
-@import url("/style/header.css");
-@import url("/style/reset.css");
-@import url("/style/sobre.css");
-@import url("/style/estatistica.css");
-@import url("/style/momentos.css");
-@import url("/style/curiosidades.css");
+@import url("header.css");
+@import url("reset.css");
+@import url("sobre.css");
+@import url("estatistica.css");
+@import url("momentos.css");
+@import url("curiosidades.css");
 
 :root {
     --cor-de-fundo-header: #1D428A;
