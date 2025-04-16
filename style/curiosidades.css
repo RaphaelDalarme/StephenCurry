@@ -1,0 +1,12 @@
+.curiosidades {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-texto);
+    padding: 2em;
+}
+
+.curiosidades__titulo {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    font-family: var(--fonte-principal);
+    color: var(--cor-de-texto);
+}

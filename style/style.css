@@ -1,0 +1,48 @@
+@import url("/style/header.css");
+@import url("/style/reset.css");
+@import url("/style/sobre.css");
+@import url("/style/estatistica.css");
+@import url("/style/momentos.css");
+@import url("/style/curiosidades.css");
+
+:root {
+    --cor-de-fundo-header: #1D428A;
+    --cor-botões: #FFC72C;
+    --cor-de-fundo: #FFFFFF;
+    --cor-de-fundo-de-seção: #f5f5f5;
+    --cor-de-texto: #000000;
+    --fonte-principal: 'Bebas Neue', sans-serif;
+    --fonte-secundaria: 'Poppins', sans-serif;
+    --fonte-texto: 'Montserrat', sans-serif;
+
+}
+
+:root[data-tema="escuro"] {
+    --cor-de-fundo: #1c1c1c;
+    --cor-de-texto: #ffffff;
+    --cor-de-fundo-de-seção: #2a2a2a;
+  }
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-texto);
+    color: var(--cor-de-texto);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.footer{
+    font-family: var(--fonte-texto);
+    font-weight: 600;
+    font-size: 1em;
+    color: var(--cor-de-texto);
+    padding: 1.5em 0 1.5em 0;
+    text-align: center;
+    background-color: var(--cor-de-fundo-header);
+    color: var(--cor-de-fundo);
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--cor-de-texto);
+}

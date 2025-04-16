@@ -1,0 +1,21 @@
+.sobre {
+    background-color: var(--cor-de-fundo-de-seção);
+    padding: 2em 1em;
+}
+
+.sobre__titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 2.5em;
+    color: var(--cor-de-texto);
+    padding: 0 0 1em 0;
+}
+
+.sobre__texto {
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--cor-de-texto);
+    padding: 0 2em 0 0;
+}
+
