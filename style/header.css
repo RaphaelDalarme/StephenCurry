@@ -49,3 +49,14 @@ button {
         cursor: pointer;
         background-color: var(--cor-botões);
       }
+
+
+@media (max-width: 768px) {
+    button{
+        padding: 0.25em;
+        position: relative;
+        left: 9em;
+        margin-bottom: 1em;
+        font-size: 0.75em;
+    }
+}
